@@ -1,0 +1,125 @@
+
+@import 'variables';
+.cuerpo{
+  background:$color_secundario;
+}
+.error{
+font-size: $texto_span;
+ border-radius: 5px;
+ color: $color_error;
+ animation:animacion 2s ease;
+ text-align: center;
+ 
+}
+
+@keyframes animacion{
+  0%{
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+form {
+    width: 30%;
+    margin: 100px auto;
+
+  }
+       
+     
+.capturarDatos{
+   width: 100%;
+   padding: 12px 20px;
+   margin: 8px 0;
+   display: inline-block;
+  border: 1px solid $color_inputs;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background: $color_inputs;
+}
+  .texto_span{
+    font-size: $texto_span;
+    color: white
+  }
+
+  
+  
+  .boton_registro{
+    @include botones();
+   
+  }
+ .boton_incio-sesion{
+   @include botones();
+ }
+  .terminos{
+   font-size:$fuente_condiciones; 
+   color: $color_blanco;
+   
+  }
+  
+  
+  .enlace_terminos{
+    font-size:$fuente_condiciones; 
+   color: $color_blanco;
+    text-decoration: none;
+   &:hover{
+     border-bottom: 1px solid green;
+   }
+  }
+  
+  
+  .boton_registro:hover {
+    opacity: 0.8;
+  }
+  
+ 
+
+  /* Add padding to containers */
+  .container {
+    padding: 16px;
+    background: $color_secundario;
+    .enlace_recuperar_contraseña{
+      text-decoration: none;
+      color: $color_blanco;
+    }
+    
+  }
+ .contenedor_enlace_sesion{
+     width: 100%;
+     padding: 5px;
+
+     .enlace_inicio_sesion{
+         text-decoration: 0;
+         color: white;
+     }
+ }
+ 
+  .parrafo_registro{
+    @include titulosH2;
+    color: $color_blanco;
+    line-height: 100px;
+  }
+
+  
+  
+  /* Add Zoom Animation */
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+  }
+  
+  @keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+  }
+
+  .recuperar_contraseña{
+    background: white;
+  }

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/estilosApp.css">
+  <title>Accent | Registro medico</title>
+</head>
+
+<body class="cuerpo">
+  <header class="menu ">
+    <h2 class="logo"> Accent Corp</h2>
+    <div class="enlace_menu">
+
+      <img src="img/menu.png" id="openNav" class="abrir_menu">
+    </div>
+    <nav id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" id="closeNav"><img src="IMG/cerrar.png" alt=""></a>
+      <div class="overlay-content">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="conoce_a_accent.html">Conoce a Accent</a></li>
+          <li><a href="que_ofrecemos.html">Lo que ofrecemos</a></li>
+          <li><a href="#">Como funciona</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <p class="parrafo_registro">Pre-inscribete como medico</p>
+  <form  id="formularioConductor" >
+    <div class="container">
+      <input type="text" placeholder="Nombre completo" name="nombreCondutor" id="nombreCondutor" autocomplete="on" class="capturarDatos">
+      <input type="email" placeholder="E-mail" name="emailConductor" id="emailConductor" autocomplete="on"class="capturarDatos">
+      <input type="tel" placeholder="Telefono" name="telefonoConductor" id="telefonoConductor" autocomplete="on" class="capturarDatos">
+      <input type="text" placeholder="Especialidad" name="especialidad" id="especialidad" autocomplete="on" class="capturarDatos">
+      <input type="text" placeholder="Identificacion" name="identificacion" id="identificacion" autocomplete="on" class="capturarDatos">
+      <input type="text" placeholder="Tarjeta profesional" name="tarjeta" id="tarjeta" autocomplete="on" class="capturarDatos">
+      <input type="password" placeholder="Crea una contraseña" name="contraseñaCondutor" id="contraseñaCondutor" autocomplete="on" class="capturarDatos">
+      <input type="submit" value="Registrarme" class="boton_registro" name="registro_conductor">
+      <div id="red"></div>
+      <div id="error" class="error"></div>
+      <p class="terminos">Al registrarte aceptas nuestros <a class="enlace_terminos" href="nuestrosTerminos.html">Terminos y condiciones</a> y 
+      <a  class="enlace_terminos" href="nuestrosTerminos.html">politicas de privacidad</a> </p>
+      <div class="contenedor_enlace_sesion">
+        <a href="./sesionMedico.html" class="enlace_inicio_sesion">Ya tienes una cuenta <strong>Inicia sesion</strong> </a>
+      </div>
+    </div>
+  
+  </form>
+
+    
+  </div> 
+  <footer class="contenedor_footer">  
+    <div class="footer">
+      <h2 class="logo"> Accent Corp</h2> 
+      <p>Contacto</p>
+      <a href="">E-mail: Hola@accent-corp.com.co</a>
+      <p>Direecion: Bogota Colombia</p>
+      <p>Llamanos 322 760 3630</p>
+    </div>
+    <div class="footer">
+      <p>Empresa</p>
+      <a href="conocenos.html"> Que nos motiva</a>
+      <a href="conocenos.html"> Nuestra Mision Y Vision</a>
+    </div>
+    <div class="footer">
+      <p>Siguenos</p>
+      <a href="">Facebook</a>
+      <a href="">Twiter</a>
+     <a href="">Instagram</a>
+    </div>
+  </footer>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

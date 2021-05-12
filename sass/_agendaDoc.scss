@@ -1,0 +1,43 @@
+
+.agenda__doc{
+    width: 80%;
+    background: orangered;
+    margin: auto;
+    // height: 700px;
+}
+.info{
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    
+}
+.siguinte,.atras{
+    cursor:pointer;
+}
+.siguinte{
+    margin-right: auto;
+}
+.atras{
+    margin-left: auto;
+}
+.semana,.dates{
+    display: grid;
+    grid-template-columns: repeat(7,1fr); 
+    padding: 10px 40px;
+}
+
+.mes,.anio{
+    padding: 10px 16px;
+}
+.item{
+    text-align: center;
+    line-height: 35px;
+}
+.hoy{
+   width: 50%;
+    border-radius: 50%;
+    border: solid 1px white;
+    background: red;
+}

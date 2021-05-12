@@ -1,0 +1,35 @@
+.contenedor_que_ofrecemos .contenido_que_ofrecemos{
+    width: 100%;
+}
+.contenido_que_ofrecemos{
+    display: flex;
+    height: 500px;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+.imagen_que_ofrecemos{
+    width: 100%;
+    max-height: $tamaño_imagenes_secundarias;
+}
+.titulo_que_ofrecemos{
+   @include titulos_subPaginas();
+}
+.parrafo_que_ofrecemos{
+    text-align: center;
+    font-size: $parrafos;
+}
+.contenido_que_ofrecemos{
+    width: 80%;
+    margin: auto;
+}
+.que_ofrecemos{
+    margin: 0 30px;
+    .subtitulo_que_ofrecemos{
+        @include titulosH2;
+    }
+    .iconos_que_ofrecemos{
+        width: $tamaño_iconos;
+    }
+}

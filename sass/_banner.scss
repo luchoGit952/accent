@@ -1,0 +1,49 @@
+@import 'variables';
+ .banner{
+   width: 100%;
+   height: 680px;
+   overflow: hidden;
+  position: relative;
+
+  }
+
+
+ video{
+   width: 100%;
+  
+ }
+
+ .overlay-video{
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   top: 20;
+   left: 0;
+   background-color:rgba(0, 0, 0, 0.89);
+   z-index: 1;
+   opacity: .30;
+ }
+  .contenedor_empresa{
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   text-align: center;
+  display: flex;
+ justify-content: center;
+ flex-direction: column ;
+ 
+  
+  }
+  .titulo_banner{
+     font-size:$tamaño_titulo;
+      font-weight: bolder;
+      color:white;
+ 
+  }
+
+  .parrafo_banner{
+    font-size: $titulos_banner;
+    color: white;
+  }
+
+  

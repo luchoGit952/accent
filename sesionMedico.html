@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilosApp.css">
+    <title>Accent | Iniciar sesion</title>
+</head>
+<body class="cuerpo">
+  <header class="menu ">
+    <h2 class="logo"> Accent Corp</h2>
+    <div class="enlace_menu">
+
+      <img src="img/menu.png" id="openNav" class="abrir_menu">
+    </div>
+    <nav id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" id="closeNav"><img src="IMG/cerrar.png" alt=""></a>
+      <div class="overlay-content">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="conoce_a_accent.html">Conoce a Accent</a></li>
+          <li><a href="que_ofrecemos.html">Lo que ofrecemos</a></li>
+          <li><a href="#">Como funciona</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+    <div class="container_form">
+        <form  id="formularioSesionConductor" >
+          <div class="container">
+            <input type="email" placeholder="E-mail" name="emailSesionConductor"  autocomplete="on" id="emailSesionConductor"class="capturarDatos">
+           <input type="password" placeholder="Contraseña" name="contrasenaSesionConductor"  autocomplete="on" id="contrasenaSesionconductor"class="capturarDatos">
+           
+           <input type="submit" value="Iniciar sesion" class="boton_incio-sesion">
+           <div id="redSesion"></div>
+           <div class="error" id="errorSesionConductor"></div>
+         
+           <div class="container">
+            <a href="recuperarContraseñaConductor.html" class="enlace_recuperar_contraseña"> Olvidaste tu contraseña? </a>
+          </div>
+          </div>
+          </form>
+         </div>
+
+   <script type="module" src="app.js"></script>
+</body>
+</html>

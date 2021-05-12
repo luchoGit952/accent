@@ -1,0 +1,80 @@
+
+@import 'variables';
+.cuerpoDocDisponibles{
+    background:#b2bec3;
+}
+
+.textoDocDisponibles{
+    text-align: center;
+    font-size: 32px;
+}
+.verDocDisponibles{
+    width: 100%;
+   
+  
+}
+.mostrarDocDisponibles{
+    width: 480px;
+    height: 400px;
+    margin: 90px;
+    background: white;
+    border-radius: 5px;
+}
+.disponibles{
+    width: 50%;
+    // padding: 100px 0 0;
+    height: 400px;
+    background:#025041;
+    border-radius: 5px;
+}
+.avatarPerfil{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+   margin-left: 35%;
+   margin-right: 35%;
+   margin-top: 30px;
+}
+.nombrePerfil{
+    text-align: center;
+    color: $color-pricipal;
+}
+.nombreEspecialidad{
+    text-align: center;
+    font-weight: 100;
+    line-height: 10px;
+    color:$color-pricipal;
+}
+
+.descripcion__perfil__profesional{
+    margin: 0 0 0 15px;
+    color: $color-pricipal;
+}
+.mostrar__perfil_profesional{
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 500;
+    margin: 0 0 0 15px;
+    color: $color-pricipal;
+}
+.contenedor__valor__consulta{
+    float: right;
+    margin-top: -380px;
+    margin-right: 45px;
+}
+.valor__consulta{
+ float: right;
+ 
+}
+.contenedor__calificacion{
+    margin: 60px 0 0 0;
+}
+.modo__atencion{
+    padding: 3px 10px;
+    background: #000;
+    color: white;
+    border-radius: 4px;
+    float: right;
+    margin-top: -280px;
+   margin-right: 10px;
+}

@@ -1,0 +1,26 @@
+.contenedor_imagen_politicas{
+    width: 100%;
+    height: 600px;
+    background:$color-pricipal;
+    .imagen_politicas{
+        width: 100%;
+        max-height: $tamaño_imagenes_secundarias;
+    }
+}
+
+.titulo_terminos{
+    margin-top: -150px;
+    @include titulos_subPaginas();
+}
+
+
+.contenedor_terminos{
+    width: 80%;
+    margin: auto;
+    margin-top: 200px;
+    line-height: 30px;
+    .subtitulos_terminos{
+        // font-weight: 900;
+    @include titulosH2;
+    }
+}

@@ -1,0 +1,26 @@
+// $fa-font-path:'~@fortawesome/fontawesome-free/webfonts';
+// @import'~@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import 'final_pagina.scss';
+@import'menu';
+@import'banner';
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap');
+@import'reset';
+@import 'variables';
+@import 'main';
+@import 'modal';
+@import 'mixin';
+@import 'registro_usuario';
+@import 'nuestros_terminos';
+@import 'conoce_a_accent';
+@import 'que_ofrecemos';
+@import 'estilos_perfil';
+@import 'editar_perfil';
+@import 'perfil_profesional';
+@import 'doctoresDisponibles';
+@import 'agendaDoc';
+
+
+body{
+    font-family: 'Baloo 2', cursive;
+    
+}

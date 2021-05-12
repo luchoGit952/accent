@@ -1,0 +1,48 @@
+
+@import 'variables';
+
+@mixin contenedor_enlaces {
+   display: inline-block; 
+   padding: 12px;
+   background: $color-pricipal;
+   margin:  50px;
+   margin-left: 150px;
+   border-radius: 5px;
+}
+@mixin enlaces_registro {
+      text-decoration: 0;
+      color: $color_blanco;
+      
+}
+
+@mixin botones {
+      background-color: $color-pricipal;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      border-radius: 5px;
+}
+
+@mixin titulos_subPaginas {
+        font-size: $tamaño_titulo;
+        font-weight: bold;
+        text-align: center;
+}
+
+@mixin parrafos {
+      line-height: 30px;
+      font-weight: 500;
+      font-size:$parrafos;
+}
+
+@mixin titulosH2 {
+    font-size:$titulos_banner;  
+   font-weight:500;
+   line-height: 30px;
+   text-align: center;
+  
+
+}

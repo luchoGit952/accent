@@ -1,0 +1,87 @@
+
+@import 'variables';
+
+.menu{
+  background:$color-pricipal;
+  display: flex;
+  justify-content: space-between;
+   align-items: center;
+   padding: 15px;
+  .logo{
+      font-size:$tamaño_fuente_logo;
+      color: white;
+  }
+}
+
+.enlace_menu{
+    a{
+      margin: 0 30px;
+      .icono_usuario{
+        width:$tamaño_iconos;
+      }
+    }
+}
+
+
+.abrir_menu{
+  font-size:30px;
+  cursor:pointer;
+  width:$tamaño_iconos;
+  
+}
+.overlay{
+    height: 100%;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+
+    .overlay-content{
+        position: relative;
+        top: 25%;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+        
+    }
+  }
+
+  ul{
+  li{
+    list-style-type: none;
+   
+  }
+}
+.overlay a{
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+
+   
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+.overlay .closebtn img {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  width:$tamaño_iconos;
+}
+
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }

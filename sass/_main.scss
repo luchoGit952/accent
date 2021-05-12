@@ -1,0 +1,142 @@
+
+@import 'mixin';
+.nosotros{
+    width: 100%; 
+    height: 800px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    // background: $fondo_main;
+    // background: $color-pricipal;
+
+   
+    
+  }
+ 
+  .contenedor_nosotros{
+    width:23%;
+    height: 200px;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: -35px 5px;
+    background: $fondo_main;
+
+    
+  }
+  
+  .card_nosotros{
+     width: 100%;
+    
+    // .parrafo_nosotros{
+    //   text-align: justify;
+    //   line-height: 20px;
+    //   font-size: $parrafos;
+      
+    // }
+  }
+  .icono-nosotros{
+    font-size: 30px;
+     margin-left: 45%;
+     margin-right: 45%;
+     margin-top: 20px;
+  }
+  .titulo_nosotros{
+    @include titulosH2;
+    font-size:$fuenteCardH2;
+    
+  }
+  .titulo_portafolio{
+    @include titulosH2;
+   flex-basis: 100%;
+   font-size: $titulos_banner;
+   font-weight: bolder;
+  }
+ 
+
+
+
+
+.contenedor_enlace_registro{
+  width: 100%;
+  display: inline-block;
+  padding: 7px;
+  border: solid 2px black;
+  text-align: center;
+  .enlace_registro{
+    text-decoration: 0;
+    color: black;
+    font-size: $parrafos;
+  }
+}
+
+
+.contenedor_trabaja_con_nosotros{
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ flex-direction: row; 
+ background: $color-pricipal;
+
+ .trabaja_con_nosotros{
+   margin: 50px;
+   margin-top: 50px;
+
+   .titulo_trabaja_con_nosotros{
+     color:$color_blanco;
+     font-size: $tamaño_titulo;
+     line-height: 80px;
+    
+    }
+  }
+  .parrafo_trabaja_con_nosotros{
+    color: $color_blanco;
+    line-height: 25px;
+    font-size: $parrafos;
+
+  }
+  
+}
+.contenedor_enlace_trabaja_con_nosotros{
+  display: inline-block;
+  padding: 7px;
+  border: solid 2px $color_blanco;
+  margin: 25px 0;
+  .enlace_trabaja_con_nosotros{
+    text-decoration: 0;
+    color: $color_blanco;
+  }
+}
+.imagen_trabajo{
+  width: 450px;
+}
+
+.contenedor_nuestros_vehiculos{
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background:#192229;
+  .imagen_vehiculos{
+    width: 450px;
+  }
+}
+.titulo_vehiculos{
+  font-size: $tamaño_titulo;
+    color:$color_blanco;
+}
+.parrafo_vehiculos{
+  line-height: 25px;
+  font-weight:600;
+  font-size: $parrafos;
+  color:$color_blanco;
+}
+.como_funciona{
+  width: 100%;
+  height: 600px;
+}

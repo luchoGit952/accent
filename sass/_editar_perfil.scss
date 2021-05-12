@@ -1,0 +1,41 @@
+.editarPerfil{
+    margin: auto;
+    width: 60%;
+    .avatar{
+        width: 100%;
+        margin: 60px 30%;
+    }
+}
+.imagenAvatar{
+  margin: 0 10%;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  
+  
+}
+.cambiarAvatar{
+    color: black;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    margin: -60px 16%;
+    min-height: 15px;
+    overflow: hidden;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    width: 50px;
+}
+.inputFoto{
+ border: 10000px solid transparent;
+ cursor: pointer;
+ font-size: 20px;
+ margin: 0;
+ opacity: 0;
+ outline: 0 none;
+ padding: 0;
+ position: absolute;
+//  right: 500px;
+ top: -1000px;
+}

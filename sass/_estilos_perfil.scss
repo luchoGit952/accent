@@ -1,0 +1,81 @@
+.overalyUsuario{
+    background-color: $color-pricipal;
+}
+ .contenedorPerfil{
+    margin-top: -150px;
+ }
+
+
+
+.imagenPerfilInicio{
+   width: 35px;
+   height: 35px;
+   border-radius:50%;
+   margin: 0 20px;
+}
+
+.imagenPerfilMenu{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 0 0 0px;
+    
+}
+
+.puntos{
+    width: 15px;
+    color: white;
+}
+.nombreUsuario{
+    color: white;
+}
+.puntosImagen{
+    width: 10px;
+}
+.contenedorEnlacesUsuario{
+    margin-top: 40px;
+}
+
+
+
+
+//  .errorUbicacion{
+//      width: 50%;
+//      margin: 20px auto;
+//      font-size: 19px;
+//      padding: 5px;
+//      text-align: center;
+//      background-color: $color_error;
+     
+//  }
+.seccion_perfil{
+  width: 100%;
+   height: 300px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   flex-wrap: wrap; 
+}
+.titulo_perfil{
+    @include titulosH2;
+    flex-basis: 100%;
+}
+
+
+.contenido_perfil{
+    width: 200px;
+    padding: 35px 0;
+    background-color:#025041;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.90);
+  
+}
+.enlace_medicos{
+    text-decoration: 0;
+    color: $color_blanco;
+    text-align: center;
+}
+.fa-calendar-alt,.fa-user-md,.fa-briefcase-medical{
+    font-size: 32px;
+    margin-left: 20px;
+}
